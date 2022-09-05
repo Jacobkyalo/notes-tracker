@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Note from "./Note";
 import "../styles/Notes.css";
+import { Link } from "react-router-dom";
 
 const Notes = () => {
   const [notes, setNotes] = useState([
@@ -36,6 +37,9 @@ const Notes = () => {
           </>
         ))}
       </div>
+      <Link to="/add">
+        <button className="add">+</button>
+      </Link>
     </>
   );
 };
