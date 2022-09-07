@@ -13,7 +13,7 @@ const AddForm = () => {
   const formValues = {
     title: title,
     description: description,
-    //date: new Date().toDateString(),
+    date: new Date().toDateString(),
   };
 
   const postNotes = async (e) => {
@@ -31,7 +31,7 @@ const AddForm = () => {
   useEffect(() => {
     setTimeout(() => {
       setError("");
-    }, 1000);
+    }, 2000);
   });
   return (
     <>

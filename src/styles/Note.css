@@ -26,6 +26,7 @@
 }
 .card-content .card-description {
   font-size: 0.8rem;
+  transition: all 1.5s linear;
 }
 .card-description span {
   color: #0e9be8;

@@ -35,3 +35,6 @@
   word-break: keep-all;
   word-wrap: normal;
 }
+.signup button:hover {
+  background-color: #136d9e;
+}
