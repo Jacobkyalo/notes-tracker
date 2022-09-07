@@ -1,12 +1,10 @@
 .signup-wrapper {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 10% auto 0 auto;
 }
 .signup {
   height: 40vh;
@@ -31,7 +29,9 @@
   border: 0;
   border-radius: 2rem;
   width: 100%;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.3rem;
   cursor: pointer;
   margin-top: 3rem;
+  word-break: keep-all;
+  word-wrap: normal;
 }
