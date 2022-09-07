@@ -3,11 +3,11 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  max-width: 500px;
-  margin: 10% auto 0 auto;
+  max-width: 600px;
+  margin: 15% auto 0 auto;
 }
 .signup {
-  height: 40vh;
+  min-height: 40vh;
   background-color: #e4e8f4;
   color: #000;
   padding: 2rem;
@@ -25,16 +25,25 @@
 .signup button {
   background-color: #0e5881;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 0;
   border-radius: 2rem;
   width: 100%;
-  padding: 0.7rem 0.3rem;
+  padding: 0.7rem;
   cursor: pointer;
   margin-top: 3rem;
   word-break: keep-all;
   word-wrap: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .signup button:hover {
   background-color: #136d9e;
+}
+
+@media (max-width: 820px) {
+  .signup {
+    min-height: 30vh;
+  }
 }

@@ -14,14 +14,7 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<SignUp />} />
-              <Route
-                path="/notes"
-                element={
-                  <ProectedRoute>
-                    <Notes />
-                  </ProectedRoute>
-                }
-              />
+              <Route path="/notes" element={<Notes />} />
               <Route
                 path="/add"
                 element={
