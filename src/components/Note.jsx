@@ -17,7 +17,7 @@ const Note = ({ note }) => {
     try {
       const noteSnapshot = doc(db, "notes", id);
       await deleteDoc(noteSnapshot);
-      <Navigate to="/notes" />;
+      <Navigate to="/add" />;
     } catch (error) {
       throw new Error("Document cannot be deleted 😏");
     }
